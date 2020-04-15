@@ -15,7 +15,8 @@
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
+    height: 100vh; 
+    font-family: "Barlow Condesed", sans-serif;
     font-weight: 400;
     font-size: 18px;
     overflow-x: hidden;
@@ -63,4 +64,33 @@ body {
     letter-spacing: 0.1em;
     font-weight: 400;
     font-family: "Barlow Condensed";
+}
+
+.main__titulo{
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+
+.main__description{
+    font-family: "Barlow";
+    color: var(--darkGrayishBlue);
+    margin-bottom: 1em;       
+}
+
+.main__action{
+    display: flex;
+    font-size: 0.7em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-action{
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed"; 
+   
 }
