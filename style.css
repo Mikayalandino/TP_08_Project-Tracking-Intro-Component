@@ -100,6 +100,12 @@ body {
         margin: 0 auto;
     } 
 
+    .header{
+        padding: 3em;
+        margin-bottom: 4rem;
+    }
+
+
     .main{
         display: flex;
         flex-direction: row-reverse;
@@ -112,7 +118,7 @@ body {
     }
 
     .header__nav__list{
-        width: 20rem;
+        width: 25rem;
         display: flex;
         justify-content: space-between;
     }
@@ -124,12 +130,17 @@ body {
 
 
     .main__img{
-        width: 100%;
+        width: 60%;
     }
     
     .header__nav__list__login{
         text-decoration: none;
+        
     }
 
+    .i{
+        fill: var(--grayishBlue);
+        font-size: 5px;
+    }
 
 }
