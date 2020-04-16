@@ -100,21 +100,29 @@ body {
         margin: 0 auto;
     } 
 
-    .header{
+    /* .header{
         padding: 3em;
         margin-bottom: 4rem;
-    }
+    } */
 
 
     .main{
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 4em;
 
     }
 
     .header__hamb{
         display: none;
 
+    }
+
+    .haver__nav{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .header__nav__list{
@@ -133,13 +141,23 @@ body {
         width: 60%;
     }
     
-    .header__nav__list__login{
+    .maint__text{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__nav__link__login{
         text-decoration: none;
+        color: var(--grayishBlue);
+        text-transform: uppercase;
+        font-size: 700;
         
     }
 
-    .i{
-        fill: var(--grayishBlue);
+    i{
+        color: var(--grayishBlue);
         font-size: 5px;
     }
 
